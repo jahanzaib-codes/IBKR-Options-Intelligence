@@ -40,3 +40,4 @@ class UnusualActivityScanner:
                     sentiment=flow["sentiment"]
                 ))
         return alerts
+

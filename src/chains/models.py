@@ -82,3 +82,4 @@ class MultiLegSpreadProposal(BaseModel):
     max_loss_usd: float
     risk_reward_ratio: float
     probability_of_profit: float
+

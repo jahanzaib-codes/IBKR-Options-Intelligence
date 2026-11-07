@@ -73,3 +73,4 @@ class SPX0DTEScanner:
             risk_reward_ratio=risk_reward,
             probability_of_profit=pop
         )
+
