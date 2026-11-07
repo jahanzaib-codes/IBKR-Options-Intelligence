@@ -1,0 +1,6 @@
+ib_insync
+scipy
+numpy
+pandas
+matplotlib
+pydantic
