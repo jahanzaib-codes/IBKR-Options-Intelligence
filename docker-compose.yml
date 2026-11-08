@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ibkr-options-intelligence:
+    build: .
+    container_name: ibkr-options-suite
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - IBKR_HOST=host.docker.internal
+      - IBKR_PORT=7497
+    env_file:
+      - .env.example
